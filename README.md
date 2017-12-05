@@ -2,7 +2,7 @@
 configuration files for a quick setup
 
 
-**Example**:
+**Example**:  
 To configure vim, type below commands in your terminal:
 ```bash
 $ git clone https://github.com/caizkun/config.git
