@@ -14,18 +14,20 @@ set smartindent
 set clipboard+=unnamed
 filetype indent on
 
+
 """ colorscheme """
 "color ron
 colorscheme molokai
 let g:molokai_original = 1
 syntax on
 
-""" SQLComplete """
-"let g:ftplugin_sql_omni_key = '<C-S>'
 
 """ insert header for certain files """
 au BufNewFile *.py 0r ~/.vim/headers/python.txt
 
+
+""" SQLComplete """
+"let g:ftplugin_sql_omni_key = '<C-S>'
 
 
 """"""""""""""""""""""for Vundle"""""""""""""""""""""""""""""""""""
@@ -45,11 +47,12 @@ Plugin 'gmarik/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 
 Plugin 'ervandew/supertab'
-Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
+"Plugin 'tomasr/molokai'
 Plugin 'sukima/xmledit'
-Plugin 'vim-scripts/SQLComplete.vim'
+"Plugin 'vim-scripts/SQLComplete.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
