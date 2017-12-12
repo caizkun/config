@@ -24,6 +24,7 @@ syntax on
 
 """ insert header for certain files """
 au BufNewFile *.py 0r ~/.vim/headers/python.txt
+au BufNewFile *.sh 0r ~/.vim/headers/bash.txt
 
 
 """ SQLComplete """
