@@ -12,6 +12,8 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set clipboard+=unnamed
+set path+=**
+set wildmenu
 filetype indent on
 
 
@@ -20,6 +22,14 @@ filetype indent on
 colorscheme molokai
 let g:molokai_original = 1
 syntax on
+
+
+""" key mapping """
+inoremap ii <C-[>
+inoremap ww <C-[>
+nnoremap ww :update<cr>
+nnoremap bb <C-b>
+nnoremap ff <C-f>
 
 
 """ insert header for certain files """
